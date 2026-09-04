@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local sqlite database (production uses Turso; see README for setup)
+/data/*.db
+/data/*.db-*
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel
